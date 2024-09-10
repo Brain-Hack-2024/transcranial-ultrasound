@@ -1,4 +1,4 @@
 /data/
 *.pyc
-*.mp4
+# *.mp4
 .DS_STORE
