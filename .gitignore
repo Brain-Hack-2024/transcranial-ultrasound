@@ -2,3 +2,5 @@
 *.pyc
 # *.mp4
 .DS_STORE
+skull-attenuation-analysis/data/
+archived/
