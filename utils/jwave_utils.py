@@ -234,7 +234,7 @@ def get_skull_medium(domain, skull_slice,
     return sound_speed, density
 
 
-def get_plane_wave_excitation(domain, time_axis, magnitude, frequency, pitch, positions, angle=0, c0=1500, hann_window=False, tone=False):
+def get_plane_wave_excitation(domain, time_axis, magnitude, frequency, pitch, positions, angle=0, c0=1550, hann_window=False, tone=False):
     """
     Get a plane wave excitation from a linear probe.
     
