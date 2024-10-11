@@ -1,6 +1,6 @@
 # Transcranial Functional Ultrasound
 
-Code and other assets from the 2024 brain hack (todo: insert link to blog post) for functional transcranial ultrasound.
+Code and other assets from the [brain hack](https://brainhack.vercel.app) for functional transcranial ultrasound.
 
 The structure of this repo is as follows:
 - `data` contains scan data for a cross-section of a human skull.
