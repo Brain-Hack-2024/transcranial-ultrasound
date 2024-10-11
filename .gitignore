@@ -4,3 +4,4 @@
 .DS_STORE
 skull-attenuation-analysis/data/
 archived/
+__pycache__
