@@ -1,6 +1,6 @@
 import jax.numpy as jnp
 from jax import jit
-from jwave_utils import get_data_only
+from utils.jwave_utils import get_data_only
 
 @jit
 def linear_loss(speed, speed0, J, dy):
