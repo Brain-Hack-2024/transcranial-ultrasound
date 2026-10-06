@@ -54,7 +54,7 @@ def get_background(N, mean, std, random_seed=28):
     return background_map
 
 
-def get_homogeneous_medium(domain, c0=1500, rho0=1000, pml_size=20, 
+def get_homogeneous_medium(domain, c0=1540, rho0=1000, pml_size=20,
                            background_mean=1, background_std=0.008, 
                            background_seed=28):
     """
@@ -123,7 +123,7 @@ def get_scatterers(N, positions, radius, contrast):
 
 
 def get_point_medium(domain, scatterer_positions, scatterer_radius=2, scatterer_contrast=1.1,
-                     c0=1500, rho0=1000, pml_size=20,
+                     c0=1540, rho0=1000, pml_size=20,
                      background_mean=1, background_std=0.008, background_seed=28):
     """
     Get an acoustic medium with defined point scatterers.
@@ -175,7 +175,7 @@ def get_point_medium(domain, scatterer_positions, scatterer_radius=2, scatterer_
 
 def get_skull_medium(domain, skull_slice, 
                            scatterer_positions=None, scatterer_radius=2, scatterer_contrast=1.1,
-                           c0=1500, rho0=1000, pml_size=20,
+                           c0=1540, rho0=1000, pml_size=20,
                            background_mean=1, background_std=0.008, background_seed=28):
     """
     Get an acoustic medium with a skull and optionally, defined point scatterers.
@@ -234,7 +234,7 @@ def get_skull_medium(domain, skull_slice,
     return sound_speed, density
 
 
-def get_plane_wave_excitation(domain, time_axis, magnitude, frequency, pitch, positions, angle=0, c0=1550, hann_window=False, tone=False):
+def get_plane_wave_excitation(domain, time_axis, magnitude, frequency, pitch, positions, angle=0, c0=1540, hann_window=False, tone=False):
     """
     Get a plane wave excitation from a linear probe.
     
